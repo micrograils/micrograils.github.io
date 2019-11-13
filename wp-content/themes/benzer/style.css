@@ -1,0 +1,23 @@
+.navbar {padding: 0;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {padding: 40px 20px;border-radius: 0;font-weight: 500;}
+.navbar-default .navbar-nav > li > a {padding: 40px 20px;font-weight: 500;}
+.navbar-header {padding: 24px 0;}
+.post_date h6 {color: #fff;}
+.header-top-info-1 .social {padding: 0px 0;padding: 5px 0 4px;margin: 0;line-height: 20px;}
+.header-top-info-1 .social li {font-family: "Awesomefont";margin-right: 4px;display: inline-block;}
+.header-top-info-1 .social li {position: relative;}
+.text-center .social li {margin: 0 2px;}
+.social li a {display: table;position: relative;-webkit-transition: .3s all;transition: .3s all;overflow: hidden;}
+.header-top-info-1 .social li a i {background: #747474;border-radius: 3px;text-align: center;display: table-cell;vertical-align: middle;color: #fff;width: 25px;height: 25px;font-size: 12px;-webkit-transition: all 200ms ease-out;-moz-transition: all 200ms ease-out;-o-transition: all 200ms ease-out;transition: all 200ms ease-out;}
+.header-top-info-1 .social li a i:hover {color: #fff;-webkit-animation: socialFxD .3s forwards;animation: socialFxD .3s forwards;}
+@-webkit-keyframes socialFxD {49% {-webkit-transform: translateX(100%);transform: translateX(100%);}
+	50% {opacity: 0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+	51% {opacity: 1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}}
+@keyframes socialFxD {49% {-webkit-transform: translateX(100%);transform: translateX(100%);}
+	50% {opacity: 0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+	51% {opacity: 1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}}
+@media only screen and (min-width: 200px) and (max-width: 768px) {.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {padding: 14px 17px;}
+	.navbar-default .navbar-nav > li > a {padding: 14px 17px;}}
+.page-wrapper .posts-navigation a {background: transparent;font-family: "Open Sans",sans-serif;padding: 12px 24px;border-radius: 30px;display: table-cell;float: left;-webkit-transition: all 200ms ease-out;-moz-transition: all 200ms ease-out;-o-transition: all 200ms ease-out;transition: all 200ms ease-out;}
+.page-wrapper .posts-navigation a:hover {color: #fff;}
+.page-wrapper .posts-navigation .nav-next {float: right;}
